@@ -133,12 +133,26 @@ class Search extends MY_Controller {
             $data['poets'] = $poet == NULL ? [] : $poet;
             $data['poet_count'] = count($data['poets']);
 
+            if ($data['poet_count'] == 1) {
+                // 只有一个诗人，后面的地点和诗歌都不搜了，跳到对应的诗人页面
+                $url = site_url('/poet/show/' . $data['poets'][0]['uuid']);
+                redirect($url);
+                return;
+            }
+
             // 看看是不是地点
             $this->load->model('Location_model', 'location');
             $location = $this->location->getByWhere("`name` LIKE '%{$keyword}%'");
             $data['locations'] = $location == NULL ? [] : $location;
             $data['location_count'] = count($data['locations']);
             $data['location_count'] > 0 && $data['hasMap'] = TRUE;
+
+            if ($data['location_count'] == 1) {
+                // 只有一个地点，后面诗歌都不搜了，跳到对应的地点页面
+                $url = site_url('/location/show/' . $data['locations'][0]['uuid']);
+                redirect($url);
+                return;
+            }
 
             // 其他地点
             $where = '1 = 1';
@@ -158,6 +172,14 @@ class Search extends MY_Controller {
             $poetry = $this->poetry->getByWhere("`name` LIKE '%{$keyword}%' OR `content_src` LIKE '%{$keyword}%'");
             $data['poetrys'] = $poetry == NULL ? [] : $poetry;
             $data['poetry_count'] = count($data['poetrys']);
+
+            if ($data['poetry_count'] == 1) {
+                // 只有一个地点，后面诗歌都不搜了，跳到对应的地点页面
+                $url = site_url('/poetry/show/' . $data['poetrys'][0]['uuid']);
+                redirect($url);
+                return;
+            }
+
             if ($data['poetry_count'] > 0) {
                 $data['poetrys'] = $this->_get_poetry_data($poetry);
             }
@@ -204,8 +226,10 @@ class Search extends MY_Controller {
         foreach ($result as $row) {
 
             $p = [
+                'uuid' => $row['uuid'],
                 'name' => $row['name'],
-                'poet' => $poets[$row['poet_id']]['name'],
+                'poet' => isset($poets[$row['poet_id']]) ? $poets[$row['poet_id']]['name'] : '作者未详',
+//                'poet' => $poets[$row['poet_id']]['name'],
                 'year' => $row['year_int'],
                 'location' => isset($locations[$row['location_id']]) ? $locations[$row['location_id']]['name'] : '地点未详',
                 'content' => $row['content_src']

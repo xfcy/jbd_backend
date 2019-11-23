@@ -21,7 +21,12 @@
         <?php if ($poet_count > 0) : foreach ($poets as $poet) : ?>
         <div class="road-detail">
             <div class="road-title">
-                <?=$poet['name']?>
+                <?php if (isset($poet['uuid']) && $poet['name'] != '无') : ?>
+                    <a href="<?=site_url('/poet/show/' . $poet['uuid'])?>"><?=$poet['name']?></a>
+                <?php else : ?>
+                    <?=$poet['name']?>
+                <?php endif; ?>
+<!--                --><?//=$poet['name']?>
             </div>
             <div  class="road-content">
                 <?=$poet['desc']?>
@@ -33,7 +38,7 @@
                 <?php foreach ($poetrys as $poetry) : ?>
                 <div class="col-md-4 col-sm-6">
                     <div class="single-blog-item">
-                        <a href="#" class="single-blog-item-txt">
+                        <a href="<?=site_url('/poetry/show/' . $poetry['uuid'])?>" class="single-blog-item-txt">
                             <h2><?=$poetry['name']?></h2>
                             <h4><span class="search-page-author"><?=$poetry['poet']?></span><span class="search-page-time"><?=$poetry['year']==-1? '年份未详' : $poetry['year'] . '年' ?></span><span class="search-page-location"><?=$poetry['location']?></span></h4>
                             <p>
