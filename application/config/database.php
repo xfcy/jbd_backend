@@ -77,8 +77,8 @@ if (ENVIRONMENT == 'production') {
     $db_config = array(
         'dsn'	=> '',
         'hostname' => '127.0.0.1',
-        'username' => 'root',
-        'password' => 'root',
+        'username' => 'jbd',
+        'password' => 'jingbiandao',
         'database' => 'jingbiandao',
         'dbdriver' => 'mysqli',
         'dbprefix' => 'jbd_',
