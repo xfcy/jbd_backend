@@ -96,8 +96,8 @@
 <section id="home" class="welcome-hero">
     <div class="container">
         <div class="welcome-hero-txt">
-            <p>国家社科基金项目《唐长安至汴京道文学的文化学考察与信息平台建设》成果</p>
-            <p>两京大道多游客，每遇词人战一场</p>
+            <p class="welcome-hero-name">国家社科基金项目《唐长安至汴京道文学的文化学考察与信息平台建设》成果</p>
+            <p class="welcome-hero-label">两京大道多游客，每遇词人战一场</p>
             <h2>唐京汴道<span class="welcome-hero-txt-info">文学地图</span> </h2>
         </div>
         <div class="welcome-hero-serch-box">

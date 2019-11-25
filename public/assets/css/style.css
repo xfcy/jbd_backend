@@ -261,8 +261,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background:rgba(65,73,89,.65);
     z-index: -1;
 }
-.welcome-hero-txt { padding-top: 115px;text-align: left;}
-
+.welcome-hero-txt { padding-top: 80px;text-align: left;}
+.welcome-hero-name{
+    text-align: center;
+}
+.welcome-hero-label{
+    font-size: 32px;
+}
 .welcome-hero-txt h2 {
     font-size: 48px;
     color: #fff;
@@ -1180,6 +1185,36 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     /*font-weight: bold !important;*/
     color: white !important;
 }
+.road-content img{
+	display:block;
+	margin-top:20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.road-content small{
+	text-align:center;
+	display: block;
+	margin-top: 8px;
+}
+.road-content p{
+	font-size:18px;
+	color:#333;
+	margin: 20px 0
+}
+.road-content blockquote{
+	line-height:32px;
+	margin:0px 0;
+	font-size: 17.5px;
+	color:#777;
+}
+.road-content h6{
+	padding: 5px;
+    font-size: 17.5px;
+    border-left: 5px solid #eee;
+    text-align:right;
+    color:#777;
+}
+
 @media screen and (max-width: 991px) {
     .welcome-hero-search{
         height: 200px;
