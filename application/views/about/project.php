@@ -2,7 +2,7 @@
 <!--blog start -->
 <section id="blog" class="blog blog-search" >
     <div class="container">
-        <div class="road-detail">
+        <div class="road-detail projtct-intro">
             <div class="road-title">
             项目介绍         
             </div>

@@ -215,20 +215,20 @@
 
                         </div>
                         <div class="single-explore-txt bg-theme-1">
-                            <h2><a href="<?=site_url('/poetry/show/182b6b25b9474ff9958ebe73858914f2')?>">送汴州监军俱文珍</a></h2>
+                            <h2><a href="<?=site_url('/poetry/show/5e07f90741b74647b37cce7dbf7c57c0')?>">将赴阌乡灞上留别钱起员外</a></h2>
                             <p class="explore-rating-price">
-                                <span>796年</span>
+                                <span>772年</span>
                                 <span class="explore-price-box">
-											韩愈
+                                        卢纶
 										</span>
-                                <a href="#">汴州</a>
+                                <a href="#">灞桥驿</a>
                             </p>
                             <div class="explore-person">
                                 <div class="row">
 
                                     <div class="col-sm-12">
                                         <p>
-                                            奉使羌池静，临戎汴水安。冲天鹏翅阔，报国剑铓寒。晓日驱征骑。春风咏采兰。谁言臣子道，忠孝两全难。												</p>
+                                        暖景登桥望，分明春色来。离心自惆怅，车马亦裴回。远雪和霜积，高花占日开。从官竟何事，忧患已相催。										</p>
                                     </div>
                                 </div>
                             </div>
@@ -243,20 +243,18 @@
 
                         </div>
                         <div class="single-explore-txt bg-theme-2">
-                            <h2><a href="<?=site_url('/poetry/show/03846f1bbbd64c8b884d4ec4dfbfd485')?>">汴路即事</a></h2>
+                            <h2><a href="<?=site_url('/poetry/show/5114d4d5631c4deaa44cd98367269d2d')?>">秋日赴阙题潼关驿楼</a></h2>
                             <p class="explore-rating-price">
-                                <span>年代不详</span>
-                                <span class="explore-price-box">
-											王建
-										</span>
-                                <a href="#">汴州</a>
+                                <span>808年</span>
+                                <span class="explore-price-box">许浑</span>
+                                <a href="#">潼关驿</a>
                             </p>
                             <div class="explore-person">
                                 <div class="row">
 
                                     <div class="col-sm-12">
                                         <p>
-                                            千里河烟直，青槐夹岸长。天涯同此路，人语各殊方。草市迎江货，津桥税海商。回看故宫柳，憔悴不成行。												</p>
+                                        红叶晚萧萧，长亭酒一瓢。残云归太华，疏雨过中条。树色随山迥，河声入海遥。帝乡明日到，犹自梦渔樵。											</p>
                                     </div>
                                 </div>
                             </div>
@@ -271,20 +269,20 @@
 
                         </div>
                         <div class="single-explore-txt bg-theme-3">
-                            <h2><a href="<?=site_url('/poetry/show/78535a38b7d34078af2b9b469d42e111')?>">汴人舟行答张祜</a></h2>
+                            <h2><a href="<?=site_url('/poetry/show/d6e201d412d94993b7d254d4aa15632b')?>">奉和圣制途次陕州应制</a></h2>
                             <p class="explore-rating-price">
-                                <span>年代不详</span>
+                                <span>725年</span>
                                 <span class="explore-price-box">
-											杜牧
+                                张说
 										</span>
-                                <a href="#">汴州</a>
+                                <a href="#">甘棠驿</a>
                             </p>
                             <div class="explore-person">
                                 <div class="row">
 
                                     <div class="col-sm-12">
                                         <p>
-                                            千万长河共使船，听君诗句倍怆然。春风野岸名花发，一道帆樯画柳烟。
+                                        周召尝分陕，诗书空复传。何如万乘眷，追赏二南篇。郡带洪河侧，宫临大道边。洛城将日近，佳气满山川。
                                         </p>
                                     </div>
                                 </div>

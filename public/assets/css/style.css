@@ -261,12 +261,18 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     background:rgba(65,73,89,.65);
     z-index: -1;
 }
-.welcome-hero-txt { padding-top: 80px;text-align: left;}
+.welcome-hero-txt { padding-top: 120px;text-align: left;}
 .welcome-hero-name{
-    text-align: center;
+    /* text-align: center; */
 }
 .welcome-hero-label{
     font-size: 32px;
+}
+.projtct-intro{
+    margin-top: 0 !important;
+}
+.projtct-intro .road-content{
+    margin-bottom: 30px;
 }
 .welcome-hero-txt h2 {
     font-size: 48px;
@@ -1003,6 +1009,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     margin:12px 0 8px 0;
     color:#555;
 }
+.sg-author a{
+    font-size:22px;
+}
+.sg-author a:hover{
+    text-decoration: underline;
+}
 .sg-content{
     font-size:24px;
     font-family:"Kaiti";
@@ -1025,7 +1037,12 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     font-family: "Kaiti";
     color: #555;
 }
-
+.sg-detail a{
+    font-size: 20px;
+}
+.sg-detail a:hover{
+    text-decoration: underline;
+}
 .blog-search{
     padding-top:60px !important;
 }
