@@ -24,7 +24,7 @@
             <div class="sg-detail"><?=$poetry['poet_desc']?></div>
             <div class="sg-label">写作背景</div>
             <div class="sg-detail"><?=$poetry['background']?></div>
-            <div class="sg-label">诗歌鉴赏</div>
+            <div class="sg-label">作品鉴赏</div>
             <div class="sg-detail"><?=$poetry['desc']?></div>
         </div>
     </div>
