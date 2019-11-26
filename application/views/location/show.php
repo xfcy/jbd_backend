@@ -37,7 +37,12 @@
         var myIcon = new BMap.Icon("<?=site_url('/assets/images/map-pin-fill.png')?>", new BMap.Size(30,30));
         var marker = new BMap.Marker(new BMap.Point(<?=$location['longitude']?>,<?=$location['latitude']?>),{icon:myIcon});  // 创建标注
         map.addOverlay(marker);               // 将标注添加到地图中
-        var label = new BMap.Label("<?=$location['name']?>",{offset:new BMap.Size(-18,25)});
+        
+        var locationName = '<?=$location['name']?>';
+        let offsetX = 15 - (locationName.length / 2 * 20);
+        var label = new BMap.Label(locationName,{offset:new BMap.Size(offsetX, 32)});
         marker.setLabel(label);
+        marker.setZIndex(999);
+        label.setZIndex(9999);
     })
 </script>
