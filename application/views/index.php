@@ -728,8 +728,11 @@
         let marker = new BMap.Marker(new BMap.Point(data_info[i][0],data_info[i][1]));  // 创建标注
         let content = data_info[i][2];
         map.addOverlay(marker);               // 将标注添加到地图中
-        let label = new BMap.Label(data_info[i][2],{offset:new BMap.Size(-18,15)});
+        let offsetX = -(data_info[i][2].length / 2 * 13);
+        let label = new BMap.Label(data_info[i][2],{offset:new BMap.Size(offsetX,25)});
         marker.setLabel(label);
+        marker.setZIndex(999);
+        label.setZIndex(9999);
         label.setStyle({display: "none"});
         marker.addEventListener('mouseover', function(e){
             var label = this.getLabel();
