@@ -2,7 +2,7 @@
 <section class="blog-search">
     <div class="container">
         <div class="section-header">
-            <h2 style="margin-bottom:0;">全部诗歌</h2>
+            <h2 style="margin-bottom:0;">全部作品</h2>
             <div class="jiansuo-content jiansuo-content-shige">
                 <?php foreach ($poetrys as $p) : $url = site_url("/poetry/show/{$p['uuid']}"); ?>
                 <a href="<?=$url?>" class="jiansuo-item"><?=$p['name']?>（<?=$p['poet']?>）</a>

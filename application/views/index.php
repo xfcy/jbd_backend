@@ -79,9 +79,9 @@
                     <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                         <li <?=($nav=='home'?'class="active"':'')?>><a href="<?=site_url('/')?>">首页</a></li>
                         <li <?=($nav=='location'?'class="active"':'')?>><a href="<?=site_url('/location')?>">全部地点</a></li>
-                        <li <?=($nav=='poet'?'class="active"':'')?>><a href="<?=site_url('/poet')?>">全部诗人</a></li>
-                        <li <?=($nav=='poetry'?'class="active"':'')?>><a href="<?=site_url('/poetry')?>">全部诗歌</a></li>
-                        <li <?=($nav=='about'?'class="active"':'')?>><a href="<?=site_url('/about/website')?>">网站介绍</a></li>
+                        <li <?=($nav=='poet'?'class="active"':'')?>><a href="<?=site_url('/poet')?>">全部作家</a></li>
+                        <li <?=($nav=='poetry'?'class="active"':'')?>><a href="<?=site_url('/poetry')?>">全部作品</a></li>
+                        <li <?=($nav=='about'?'class="active"':'')?>><a href="<?=site_url('/about/website')?>">平台介绍</a></li>
                         <li <?=($nav=='about'?'class="active"':'')?>><a href="<?=site_url('/about/project')?>">项目介绍</a></li>
                     </ul><!--/.nav -->
                 </div><!-- /.navbar-collapse -->
@@ -153,7 +153,7 @@
                         <div class="single-list-topics-icon">
                             <i class="flaticon-list-with-dots"></i>
                         </div>
-                        <h2>全部诗人</h2>
+                        <h2>全部作家</h2>
                     </a>
                 </li>
                 <li>
@@ -161,7 +161,7 @@
                         <div class="single-list-topics-icon">
                             <i class="flaticon-search"></i>
                         </div>
-                        <h2>全部诗歌</h2>
+                        <h2>全部作品</h2>
                     </a>
                 </li>
                 <li>
@@ -169,7 +169,7 @@
                         <div class="single-list-topics-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="45" height="45"><path fill="none" d="M0 0h24v24H0z"/><path d="M2 5l7-3 6 3 6.303-2.701a.5.5 0 0 1 .697.46V19l-7 3-6-3-6.303 2.701a.5.5 0 0 1-.697-.46V5zm14 14.395l4-1.714V5.033l-4 1.714v12.648zm-2-.131V6.736l-4-2v12.528l4 2zm-6-2.011V4.605L4 6.319v12.648l4-1.714z"/></svg>
                         </div>
-                        <h2>网站介绍</h2>
+                        <h2>平台介绍</h2>
                     </a>
                 </li>
                 <li>
