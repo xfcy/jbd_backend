@@ -29,7 +29,7 @@
         </div>
         <div class="road-content">
         随着移动设备的流行，一套网站多处适配已经变得非常重要。本站采用了响应式设计，能够智能的对多宽度、多终端设备进行适配。能够在手机、平板、PC电脑方便浏览、检索。免去了专门制作手机端，专门维护手机端的精力。在手机端的顶部菜单，进行了特殊设计，方便展开收起。
-        <img src="assets/images/blog/004.jpg" ><br/><img src="assets/images/blog/005.jpg" >
+        <img src="../assets/images/blog/004.jpg" ><br/><img src="../assets/images/blog/005.jpg" >
         </div>
         <div class="road-title">
         交互设计        
