@@ -81,6 +81,7 @@
                         <li <?=($nav=='location'?'class="active"':'')?>><a href="<?=site_url('/location')?>">全部地点</a></li>
                         <li <?=($nav=='poet'?'class="active"':'')?>><a href="<?=site_url('/poet')?>">全部诗人</a></li>
                         <li <?=($nav=='poetry'?'class="active"':'')?>><a href="<?=site_url('/poetry')?>">全部诗歌</a></li>
+                        <li <?=($nav=='about'?'class="active"':'')?>><a href="<?=site_url('/about/website')?>">网站介绍</a></li>
                         <li <?=($nav=='about'?'class="active"':'')?>><a href="<?=site_url('/about/project')?>">项目介绍</a></li>
                     </ul><!--/.nav -->
                 </div><!-- /.navbar-collapse -->
@@ -140,44 +141,44 @@
         <div class="list-topics-content">
             <ul>
                 <li>
-                    <div class="single-list-topics-content">
+                    <a href="<?=site_url('/location')?>" class="single-list-topics-content">
                         <div class="single-list-topics-icon">
                             <i class="flaticon-location-on-road"></i>
                         </div>
-                        <h2><a href="<?=site_url('/location')?>">全部地点</a></h2>
-                    </div>
+                        <h2>全部地点</h2>
+                    </a>
                 </li>
                 <li>
-                    <div class="single-list-topics-content">
+                    <a href="<?=site_url('/poet')?>" class="single-list-topics-content">
                         <div class="single-list-topics-icon">
                             <i class="flaticon-list-with-dots"></i>
                         </div>
-                        <h2><a href="<?=site_url('/poet')?>">全部诗人</a></h2>
-                    </div>
+                        <h2>全部诗人</h2>
+                    </a>
                 </li>
                 <li>
-                    <div class="single-list-topics-content">
+                    <a href="<?=site_url('/poetry')?>" class="single-list-topics-content">
                         <div class="single-list-topics-icon">
                             <i class="flaticon-search"></i>
                         </div>
-                        <h2><a href="<?=site_url('/poetry')?>">全部诗歌</a></h2>
+                        <h2>全部诗歌</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?=site_url('/about/website')?>" class="single-list-topics-content">
+                        <div class="single-list-topics-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="45" height="45"><path fill="none" d="M0 0h24v24H0z"/><path d="M2 5l7-3 6 3 6.303-2.701a.5.5 0 0 1 .697.46V19l-7 3-6-3-6.303 2.701a.5.5 0 0 1-.697-.46V5zm14 14.395l4-1.714V5.033l-4 1.714v12.648zm-2-.131V6.736l-4-2v12.528l4 2zm-6-2.011V4.605L4 6.319v12.648l4-1.714z"/></svg>
+                        </div>
+                        <h2>网站介绍</h2>
                     </div>
                 </li>
                 <li>
-                    <div class="single-list-topics-content">
+                    <a href="<?=site_url('/about/project')?>" class="single-list-topics-content">
                         <div class="single-list-topics-icon">
-                            <i class="flaticon-lightbulb-idea"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="45" height="45"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 21a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2H20a1 1 0 0 1 1 1v3h-2V7h-7.414l-2-2H4v11.998L5.5 11h17l-2.31 9.243a1 1 0 0 1-.97.757H3zm16.938-8H7.062l-1.5 6h12.876l1.5-6z"/></svg>
                         </div>
-                        <h2><a href="<?=site_url('/about/website')?>">网站介绍</a></h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="single-list-topics-content">
-                        <div class="single-list-topics-icon">
-                            <i class="flaticon-transport"></i>
-                        </div>
-                        <h2><a href="<?=site_url('/about/project')?>">项目介绍</a></h2>
-                    </div>
+                        <h2>项目介绍</h2>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -577,7 +578,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="single-ststistics-box">
                     <div class="statistics-content">
-                        <div class="counter">500 </div> <span>首+</span>
+                        <div class="counter">641 </div> <span>首+</span>
                     </div><!--/.statistics-content-->
                     <h3>诗词</h3>
                 </div><!--/.single-ststistics-box-->
@@ -585,7 +586,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="single-ststistics-box">
                     <div class="statistics-content">
-                        <div class="counter">40</div> <span>位+</span>
+                        <div class="counter">252</div> <span>位+</span>
                     </div><!--/.statistics-content-->
                     <h3>作者</h3>
                 </div><!--/.single-ststistics-box-->
@@ -601,7 +602,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="single-ststistics-box">
                     <div class="statistics-content">
-                        <div class="counter">50</div> <span>个+</span>
+                        <div class="counter">73</div> <span>个+</span>
                     </div><!--/.statistics-content-->
                     <h3>地理位置</h3>
                 </div><!--/.single-ststistics-box-->

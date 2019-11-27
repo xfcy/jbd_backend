@@ -382,6 +382,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     transition: .3s linear;
 }
 .single-list-topics-content h2>a { margin: 13px 0;}
+.single-list-topics-content h2 { margin: 13px 0;}
 /*.single-list-topics-content:last-child{margin-right: 0;}*/
 
 .single-list-topics-icon [class^="flaticon-"]:before,.single-list-topics-icon [class*=" flaticon-"]:before,.single-list-topics-icon [class^="flaticon-"]:after,.single-list-topics-icon [class*=" flaticon-"]:after {font-size: 45px;color:#343a3f;}
