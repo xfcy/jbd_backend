@@ -362,7 +362,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     z-index: 1;
 }
 .list-topics-content ul li { display: inline-block;}
-
+.single-list-topics-icon{
+    height: 64px !important;
+}
 .single-list-topics-content{
     display: flex;
     align-items: center;
