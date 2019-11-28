@@ -504,7 +504,7 @@
         </div>
     </div>
     <a class="show-more" href="<?=site_url('/poet')?>">
-        全部诗人 <i class="fa fa-angle-right"></i>
+        全部作家 <i class="fa fa-angle-right"></i>
     </a>
 
 </section><!--/.reviews-->
