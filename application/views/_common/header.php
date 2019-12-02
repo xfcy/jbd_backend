@@ -84,8 +84,8 @@
                         <li <?=($nav=='location'?'class="active"':'')?>><a href="<?=site_url('/location')?>">全部地点</a></li>
                         <li <?=($nav=='poet'?'class="active"':'')?>><a href="<?=site_url('/poet')?>">全部作家</a></li>
                         <li <?=($nav=='poetry'?'class="active"':'')?>><a href="<?=site_url('/poetry')?>">全部作品</a></li>
-                        <li <?=($nav=='about'?'class="active"':'')?>><a href="<?=site_url('/about/website')?>">平台介绍</a></li>
-                        <li <?=($nav=='about'?'class="active"':'')?>><a href="<?=site_url('/about/project')?>">项目介绍</a></li>
+                        <li <?=($nav=='website'?'class="active"':'')?>><a href="<?=site_url('/about/website')?>">平台介绍</a></li>
+                        <li <?=($nav=='project'?'class="active"':'')?>><a href="<?=site_url('/about/project')?>">项目介绍</a></li>
                     </ul><!--/.nav -->
                 </div><!-- /.navbar-collapse -->
             </div><!--/.container-->

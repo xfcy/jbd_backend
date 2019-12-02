@@ -30,7 +30,7 @@ class StaticPage extends CI_Controller {
 
 	public function about_project() {
 
-        $this->load->view('_common/header', ['nav' => 'about', 'hasMap' => false]);
+        $this->load->view('_common/header', ['nav' => 'project', 'hasMap' => false]);
         $this->load->view('_common/search_lite');
         $this->load->view('about/project');
         $this->load->view('_common/footer');
@@ -39,7 +39,7 @@ class StaticPage extends CI_Controller {
 
     public function about_website() {
 
-        $this->load->view('_common/header', ['nav' => 'about', 'hasMap' => false]);
+        $this->load->view('_common/header', ['nav' => 'website', 'hasMap' => false]);
         $this->load->view('_common/search_lite');
         $this->load->view('about/website');
         $this->load->view('_common/footer');
