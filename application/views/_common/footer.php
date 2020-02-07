@@ -81,7 +81,11 @@
 <script type="text/javascript">
     // 百度地图API功能
     var map = new BMap.Map("allmap");    // 创建Map实例
+    <?php if (isset($location)) : ?>
+    map.centerAndZoom(new BMap.Point(<?=$location['longitude']?>,<?=$location['latitude']?>), 9);  // 初始化地图,设置中心点坐标和地图级别
+    <?php else : ?>
     map.centerAndZoom(new BMap.Point(111.19036,34.930745), 9);  // 初始化地图,设置中心点坐标和地图级别
+    <?php endif; ?>
     // 获取的数据
     var data_info = [
         <?php $default_location_list = isset($other_locations) ? $other_locations : (isset($locations) ? $locations : [] ); ?>
