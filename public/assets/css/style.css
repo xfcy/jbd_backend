@@ -238,7 +238,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(https://cdn.jsdelivr.net/gh/xfcy/statics@master/img/20200522122059.png)no-repeat;
+    background:url(../images/welcome-hero/banner.jpg)no-repeat;
     background-position:center;
     background-size:cover;
     text-align: center;
